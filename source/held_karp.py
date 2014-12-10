@@ -9,18 +9,6 @@ import time
 
 import bits
 
-# LESSONS LEARNED
-# - NEVER assign default values for a key. If you can't find a key,
-#   return a default value at invocation instead.
-# - Sometimes it's a good idea to use two small dictionaries instead of
-#   accumulating 1 massive one
-
-# TODO
-# - Dicts: how about deleting entries from the previous array when all
-#   references to it have been made? This should free up memory.
-# - Rewrite with numpy arrays
-# - PyLint: still a lot of "Invalid argument name" convention mismatches.
-
 def distance_matrix(cities):
     """ [points] -> [[int]]
 
